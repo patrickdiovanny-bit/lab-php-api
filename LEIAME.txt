@@ -2,11 +2,17 @@ Laboratórios individuais de 16/11/2026 (PHP). Desenvolvimento Web em HTML5, CSS
 
 Como usar (escolha UMA forma):
   A) XAMPP: copie esta pasta para C:\xampp\htdocs\lab-php-api, ligue o Apache e abra http://localhost/lab-php-api/index.html
-  B) Plano B sem Apache: abra um terminal DENTRO desta pasta e rode  php -S localhost:8000
-     (no Windows com XAMPP: C:\xampp\php\php.exe -S localhost:8000) e abra http://localhost:8000/index.html
+  B) Sem Apache: abra um terminal DENTRO desta pasta e rode  C:\xampp\php\php.exe -S localhost:8000
+     e abra http://localhost:8000/index.html (deixe o terminal aberto)
+  C) Sem XAMPP e sem PHP: GitHub Codespaces, no navegador. Faça um Fork de
+     https://github.com/wender-firmino/lab-php-api , abra Code > Codespaces > Create codespace na SUA cópia
+     e a página abre ao lado do editor (se não abrir, aba Portas, porta 8080). Pare o Codespace ao terminar.
 
 Atenção: abrir os arquivos com duplo clique (file://) NÃO executa o PHP.
 
+Cada laboratório reserva 15 minutos, individuais:
 Laboratório 1: crie lista.php (partida com comentários) e abra por http://localhost.../lista.php
 Laboratório 2: complete api/produtos.php (o js/app.js já vem pronto); teste api/produtos.php?categoria=casa direto no navegador.
 Laboratório 3: complete os três TODO de api/contato.php e use contato.html.
+
+O gabarito está na branch "resposta" do repositório (confira só depois de tentar).
