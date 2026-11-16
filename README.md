@@ -4,12 +4,17 @@ Desenvolvimento Web em HTML5, CSS, JavaScript e PHP. Laboratórios **individuais
 
 ## Opção 1: no navegador, sem instalar nada (GitHub Codespaces)
 
-1. Clique em **Code → Codespaces → Create codespace on main** (ou abra https://codespaces.new/wender-firmino/lab-php-api).
-2. Espere o ambiente abrir (cerca de 1 a 2 minutos na primeira vez). O PHP 8.2 já vem instalado e o servidor liga sozinho.
-3. A página `index.html` abre ao lado do editor. Se não abrir, vá na aba **Portas**, ache a porta **8080** e clique no ícone de globo.
-4. Edite os arquivos PHP no editor, salve e **atualize a página**. Não precisa de `curl` nem de terminal.
+Cada aluno trabalha na **própria cópia** (fork) e usa a **própria cota gratuita** do GitHub. Não abra o Codespace direto neste repositório.
+
+1. Entre no GitHub com a sua conta e clique em **Fork** (canto superior direito) → **Create fork**. Você ganha uma cópia em `seu-usuario/lab-php-api`.
+2. Na **sua cópia**, clique em **Code → Codespaces → Create codespace on main**.
+3. Espere o ambiente abrir (cerca de 1 a 2 minutos na primeira vez). O PHP 8.2 já vem instalado e o servidor liga sozinho.
+4. A página `index.html` abre ao lado do editor. Se não abrir, vá na aba **Portas**, ache a porta **8080** e clique no ícone de globo.
+5. Edite os arquivos PHP no editor, salve e **atualize a página**. Não precisa de `curl` nem de terminal.
+6. Ao terminar, **pare o Codespace** (menu do canto inferior esquerdo → *Stop Current Codespace*) para não gastar a cota. Ele também desliga sozinho após um tempo parado.
 
 Se o servidor não estiver rodando (a página não carrega), abra um terminal e rode: `php -S 0.0.0.0:8080 -t .`
+Se o Codespaces não estiver disponível na sua conta (cota esgotada, por exemplo), use a Opção 2.
 
 ## Opção 2: no seu computador (XAMPP)
 
