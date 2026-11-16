@@ -28,3 +28,7 @@ Sem Apache: dentro da pasta, rode `C:\xampp\php\php.exe -S localhost:8000` e abr
 - **Laboratório 1:** crie `lista.php` e abra por `/lista.php`.
 - **Laboratório 2:** complete `api/produtos.php` (o `js/app.js` já vem pronto). Teste `api/produtos.php?categoria=casa` direto no navegador e depois a página `index.html`.
 - **Laboratório 3:** complete os três `TODO` de `api/contato.php` e use `contato.html`.
+
+## Gabarito
+
+A solução dos três laboratórios está na branch [`resposta`](../../tree/resposta). Tente primeiro sozinho e compare depois.
