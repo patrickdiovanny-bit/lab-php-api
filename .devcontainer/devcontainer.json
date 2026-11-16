@@ -1,0 +1,12 @@
+{
+  "name": "Laboratório PHP + API",
+  "image": "mcr.microsoft.com/devcontainers/php:8.2",
+  "forwardPorts": [8080],
+  "portsAttributes": {
+    "8080": { "label": "Site (PHP)", "onAutoForward": "openPreview" }
+  },
+  "postAttachCommand": "php -S 0.0.0.0:8080 -t .",
+  "customizations": {
+    "vscode": { "extensions": ["bmewburn.vscode-intelephense-client"] }
+  }
+}

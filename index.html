@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vitrine com PHP</title>
+<style>
+  body { font-family: Arial, sans-serif; max-width: 640px; margin: 24px auto; padding: 0 16px; }
+  button { padding: 8px 14px; margin-right: 6px; }
+  #estado { color: #0B3FB3; min-height: 24px; margin-top: 12px; }
+</style>
+</head>
+<body>
+<h1>Vitrine</h1>
+<p>
+  <button onclick="carregar('')">Todos</button>
+  <button onclick="carregar('roupas')">Roupas</button>
+  <button onclick="carregar('casa')">Casa</button>
+  <button onclick="carregar('nada')">Categoria vazia (teste)</button>
+</p>
+<p id="estado"></p>
+<div id="vitrine"></div>
+<p><a href="contato.html">Laboratório 3: contato</a></p>
+<script src="js/app.js"></script>
+</body>
+</html>

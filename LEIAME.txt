@@ -1,0 +1,12 @@
+Laboratórios individuais de 16/11/2026 (PHP). Desenvolvimento Web em HTML5, CSS, JavaScript e PHP.
+
+Como usar (escolha UMA forma):
+  A) XAMPP: copie esta pasta para C:\xampp\htdocs\lab-php-api, ligue o Apache e abra http://localhost/lab-php-api/index.html
+  B) Plano B sem Apache: abra um terminal DENTRO desta pasta e rode  php -S localhost:8000
+     (no Windows com XAMPP: C:\xampp\php\php.exe -S localhost:8000) e abra http://localhost:8000/index.html
+
+Atenção: abrir os arquivos com duplo clique (file://) NÃO executa o PHP.
+
+Laboratório 1: crie lista.php (partida com comentários) e abra por http://localhost.../lista.php
+Laboratório 2: complete api/produtos.php (o js/app.js já vem pronto); teste api/produtos.php?categoria=casa direto no navegador.
+Laboratório 3: complete os três TODO de api/contato.php e use contato.html.
